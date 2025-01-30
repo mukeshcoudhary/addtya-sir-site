@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+}
+.bg{
+    background-image: url(page2img/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+    height: 60vh;
+}
+.bg1{
+    background-image: url(imgs/image\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 5%;
+}
+.bg2{
+    background-image: url(page2img/Images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 5%;
+}
+.bg3{
+    background-image: url(page2img/image\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 5%;
+}
+.bg4{
+    background-image: url(page2img/Images\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 5%;
+}
+.c1{
+    padding-top: 40%;
+    opacity: -9999;
+    border-radius: 5%;
+}
+.c1:hover{
+    opacity: 999;
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+.btn-grad {
+    border: none;
+   margin-left: 25%;
+   padding: 6px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .navbar-toggler:focus{
+    box-shadow: none !important;
+    border: none;
+}
+@media (max-width:576px) {
+    .child1{
+      padding-top: 40% !important;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .btn-grad{
+        margin-left: 30%;
+    }
+    .im2{
+        width: 15%;
+    }
+}

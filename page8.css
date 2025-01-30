@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+}
+.bg{
+    background-image: url(page2img/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+    height: 60vh;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+    border: none;
+}
+@media (max-width:576px) {
+    .child1{
+      padding-top: 40% !important;
+    }
+    .a1{
+        flex-direction: column;
+    }
+    .a2{
+        width: 100% !important;
+    }
+}
